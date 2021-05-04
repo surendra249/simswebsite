@@ -1,0 +1,3 @@
+RewriteCond     %{REQUEST_FILENAME} !-f
+RewriteRule     ^page/([A-Za-z0-9\-]+)/?$    page.php?p=$1   [L]
+php_flag display_errors 1
